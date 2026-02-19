@@ -22,7 +22,8 @@ cd C:/Projects # create this folder if it doesn't exist
 git clone https://github.com/YOUR_USERNAME/REPO_NAME.git
 # Sign in with GitHub if prompted
 cd REPO_NAME
-git status # Check the status of your repo
+# Check the status of your repo
+$ git status
 code . # Open in VS Code (optional)
 ```
 ![Terminal SS](./images/ss04.png)
@@ -37,7 +38,7 @@ code . # Open in VS Code (optional)
 !["VS Code SS - Empty Repository"](./images/ss06.png)
 - Check status with the following command.
 ```bash
-git status
+$ git status
 ```
 ![VS Code SS - Unstaged](./images/ss07.png)
 - You should see the new file from the red text. We will need to stage it.
@@ -46,10 +47,12 @@ git status
 
 - [Stage](a "Staging files is the process of adding changes to the staging area before committing") and commit your changes:
 ```bash
-git add newfile1.txt
-git status # Check that the file is staged (green text) and ready to be committed
-git commit -m "Add newfile1.txt with initial content"
-git status # Check that there are no changes to commit
+$ git add newfile1.txt
+# Check that the file is staged (green text) and ready to be committed
+$ git status
+$ git commit -m "Add newfile1.txt with initial content"
+# Check that there are no changes to commit
+$ git status
 ```
 ![VS Code SS - Staged](./images/ss08.png)
 
@@ -69,9 +72,12 @@ git status # Check that there are no changes to commit
 
 - Create and switch to a feature branch:
 ```bash
-git branch # Checks current branches
-git checkout -B feature-xyz # Creates and switches to 'feature-xyz' branch
-git status # Check that you're on the new branch
+# Checks current branches
+$ git branch
+# Creates and switches to 'feature-xyz' branch
+$ git checkout -B feature-xyz
+# Check that you're on the new branch
+$ git status
 ```
 ![Terminal SS - Branch](./images/ss11.png)
 
@@ -79,12 +85,15 @@ git status # Check that you're on the new branch
 ![VS Code SS - Branch Changes](./images/ss12.png)
 - Stage files, commit, and push to the new branch:
 ```bash
-git status # Check changes and take note of the modified and new files
-git add newfile2.txt modifiedfile1.txt # Stage both the new and modified files
+# Check changes and take note of the modified and new files
+$ git status
+# Stage both the new and modified files
+$ git add newfile2.txt modifiedfile1.txt
 ## OR!!! You can also stage all changes with:
-git add . # Stages all changes.
-git status # Check that all changes are staged
-git commit -m "Add changes to feature-xyz"
+# Stages all changes.
+$ git add .
+$ git status # Check that all changes are staged
+$ git commit -m "Add changes to feature-xyz"
 ```
 ![VS Code SS - Staged Branch Changes](./images/ss13.png)
 
