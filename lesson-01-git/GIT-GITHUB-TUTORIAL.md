@@ -164,7 +164,8 @@ $ git pull origin main
 - Finally, we pulled the latest changes from GitHub to update our local main branch with the merged changes.
 
 # CHALLENGE
-> Create a new branch and make some changes to your files. Then push the branch to GitHub and create a pull request. Finally, merge the pull request on GitHub and pull the latest changes to your local main branch.
+> Challenge 1 (On the same repository): Create a new branch and make some changes to your files. Then push the branch to GitHub and create a pull request. Finally, merge the pull request on GitHub and pull the latest changes to your local main branch.
+> Challenge 2: Create a new repository on GitHub, clone it, and repeat the same steps as above to practice creating branches, making changes, pushing, and creating pull requests.
 
 # Important Things to observe:
 - Main commits: https://github.com/YOUR_USERNAME/REPO_NAME/commits/main/
